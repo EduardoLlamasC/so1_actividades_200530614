@@ -36,7 +36,15 @@ Ejecuta instrucciones en modo privilegiado, en nombre del nucleo.
 
 La diferencia esntre estos modos, radica en la posibilidad de ejecutar ciertas instrucciones, el manejo de memoria y los puertos de I/O.
 
-![User & Kernel Mode](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/images/userandkernelmode01.png)
+![Windows User & Kernel Mode](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/images/userandkernelmode01.png)
 
 
 ## Interruptions vs Traps
+
+### Interruptions
+
+Las interrupciones son generadas por hardware, generalmente por un dispisitivo de I/O o eventos.
+
+### Traps
+
+Las trampas son invocadas por software, se identififan como una transferencia de control iniciada por el programa (programador). También puede ser la llamada a una subrutina.
