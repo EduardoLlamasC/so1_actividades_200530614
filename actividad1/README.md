@@ -25,7 +25,18 @@ Existen Kernel escenciales y no escenciales.
 
 ## User vs Kernel Mode
 
+### User mode
 
+Este modo ejecuta instrucciones en nombre del usuario. El procesador proporciona a la aplicación un espacio de direcciones virtuales privado y cada aplicación se ejecuta de manera aislada. Si una aplicación en modo usuario falla, este fallo no afectará al sistema o a otras aplicaciones que se estén ejecutando.
+
+### Kernel mode
+
+Ejecuta instrucciones en modo privilegiado, en nombre del nucleo.
+
+
+La diferencia esntre estos modos, radica en la posibilidad de ejecutar ciertas instrucciones, el manejo de memoria y los puertos de I/O.
+
+![User & Kernel Mode](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/images/userandkernelmode01.png)
 
 
 ## Interruptions vs Traps
