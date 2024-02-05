@@ -25,4 +25,4 @@ y agregamos la siguiente linea:
 
 ### Salida
 
-  - Salida: [Salida](/actividad2/salida.png)
+![alt text](/actividad2/salida.png)
