@@ -3,6 +3,7 @@
 ### Configuración previa
 
 Instalar cURL para transferir datos desde y hacia Github
+
 Instalar jq para procesar el JSON que retorna Github
 
 Se utiliza bash
